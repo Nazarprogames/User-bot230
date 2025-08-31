@@ -1,6 +1,6 @@
 from bot.client import client
 from utils.logger import logger
-from bot import handlers  
+from . import handlers  
 
 if __name__ == "__main__":
     logger.info("Starting userbot…")
